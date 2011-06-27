@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello, World!</title>
+    <title>{{ page.title }}</title>
   </head>
   <body>
-    {{ content }}
+    <div class="title">
+      {{ page.title }}
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
   </body>
 <html>
