@@ -1,0 +1,6 @@
+<head>
+	<title>Hello, World!</title>
+</head>
+<body>
+	{{ page.content }}
+</body>
