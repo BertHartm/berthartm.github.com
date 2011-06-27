@@ -75,15 +75,25 @@ body {
     background-color: #79D4B8;
 }
 
-.title {
-    font-size: 15pt;
+.header {
+    width: 1000px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
-.title p {
-    background-color: #FFFFFF;
+.header .title p {
+    font-size: 15pt;
     text-align: center;
 }
 
 .content {
-    font-size: 13pt;
+    background-color: #FFFFFF;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    padding: 15px;
+    border-radius: 15px 15px 15px 15px;
 }
