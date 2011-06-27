@@ -76,10 +76,14 @@ body {
 }
 
 .title {
-    text: Georgia;
-    text-size: 15pt;
+    font-size: 15pt;
+}
+
+.title p {
+    background-color: #FFFFFF;
+    text-align: center;
 }
 
 .content {
-    text-size: 13pt;
+    font-size: 13pt;
 }
