@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
-simple_search: http://google.com/search
+url: http://berthartm.github.com
+title: I only blog when sleep deprived
+subtitle: 
+author: Bert Hartmann
+simple_search: 
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
@@ -71,4 +71,4 @@ delicious_count: 3
 disqus_short_name:
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-25195310-1
