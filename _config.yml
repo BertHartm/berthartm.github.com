@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://berthartm.github.com
-title: I only blog when sleep deprived
+title: Programming Notes
 subtitle: 
 author: Bert Hartmann
 simple_search: 
@@ -56,13 +56,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: BertHartm
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: 
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -87,7 +87,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: berthartm
 disqus_show_comment_count: false
 
 # Google Analytics

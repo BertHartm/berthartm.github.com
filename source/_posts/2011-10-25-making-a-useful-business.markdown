@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Making a useful business"
+date: 2011-10-25 21:34
+comments: true
+categories: startups
+---
+
+I saw a post on Hacker News recently about a recent batch of graduates from TechStars. There was a comment there lamenting the lack of businesses attacking new problems. Unfortunately, I can't find the post or comment now, unfortunately, but it's a thought I've heard and shared before, and it's not unique to any program or group of people.
+
+A lot is said in the startup world about "scratching your own itch". That is, find a problem that affects you so you'll be inspired to solve it. A lot of great ideas and businesses have come out of this, but it's almost come to a point where people don't know what to solve because a lot of the problems in the life of a typical startup founder have been solved.
+
+A comparison to our lives 10 years ago shows that. We now have much better internet access, more blogging, email sending, hosting, and social media solutions than you can shake a fist at. We even have smartphones so we never need to be without a computer. I'm not arguing that there aren't improvements to be made in these fields, but rather that a lot of them have been attacked and are 85% solved. Yes, you may be able to do better and make it 90%, but it's going to be a hard sell.
+
+When I expand my itch scratching to family and friends, I find problems that are screaming for good teams of people to provide any help at all. If you look at any small (or even large) business, you'll find tons of processes that are annoyingly manual, time consuming, and generally wasteful.
+
+When we started <a href='http://MomnPo.ps'>Mom n Pops</a>, we were scratching our own itch. We found it hard to find things in our neighborhood. What we found was that not only was the consumer side lacking, but that there were no tools on the store side either. Store owners keeping track of things on post-it notes, distributors going store to store taking inventory by hand on paper, and what tools exist are expensive and bad. Theres definitely work to be done here.
+
+My new rule of thumb when I hear ideas is "Who's life is significantly better because of this?" and, if I'm uninspired with ideas for what I should do, I talk to other people about their jobs. They always know something that can be fixed.
