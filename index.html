@@ -5,8 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>I only blog when sleep deprived</title>
+  <title>Programming Notes</title>
   <meta name="author" content="Bert Hartmann">
+
+  
+  <meta name="description" content="I saw a post on Hacker News recently about a recent batch of graduates from TechStars. There was a comment there lamenting the lack of businesses &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -15,14 +18,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-
-  <link rel="canonical" href="http://berthartm.github.com/index.html"/>
-  <link href="/favicon.png" rel="shortcut icon" />
+  <link rel="canonical" href="http://berthartm.github.com">
+  <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script>
+  <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="I only blog when sleep deprived" type="application/atom+xml"/>
+  <link href="/atom.xml" rel="alternate" title="Programming Notes" type="application/atom+xml">
+  <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
+<link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
   
   <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -37,47 +43,21 @@
   </script>
 
 
-  
-  <script type="text/javascript">
-    (function() {
-      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
-      script.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-    })();
-  </script>
-
-
-  
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-  <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
-<link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
-
 </head>
 
-<body  >
-  <header><hgroup>
-  <h1><a href="/">I only blog when sleep deprived</a></h1>
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Programming Notes</a></h1>
   
 </hgroup>
 
 </header>
-  <nav role=navigation><ul role=subscription data-subscription="rss">
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
 <form action="" method="get">
-  <fieldset role="site-search">
+  <fieldset role="search">
     <input type="hidden" name="q" value="site:berthartm.github.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
@@ -91,25 +71,98 @@
   <div id="main">
     <div id="content">
       <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/10/25/making-a-useful-business/">Making a Useful Business</a></h1>
+    
+    
+      <p class="meta">
+        
 
 
-<nav role="pagination">
-  <div>
+
+
+  
+
+<time datetime="2011-10-25T21:34:00-04:00" pubdate>Oct 25<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I saw a post on Hacker News recently about a recent batch of graduates from TechStars. There was a comment there lamenting the lack of businesses attacking new problems. Unfortunately, I can&#8217;t find the post or comment now, unfortunately, but it&#8217;s a thought I&#8217;ve heard and shared before, and it&#8217;s not unique to any program or group of people.</p>
+
+<p>A lot is said in the startup world about &#8220;scratching your own itch&#8221;. That is, find a problem that affects you so you&#8217;ll be inspired to solve it. A lot of great ideas and businesses have come out of this, but it&#8217;s almost come to a point where people don&#8217;t know what to solve because a lot of the problems in the life of a typical startup founder have been solved.</p>
+
+<p>A comparison to our lives 10 years ago shows that. We now have much better internet access, more blogging, email sending, hosting, and social media solutions than you can shake a fist at. We even have smartphones so we never need to be without a computer. I&#8217;m not arguing that there aren&#8217;t improvements to be made in these fields, but rather that a lot of them have been attacked and are 85% solved. Yes, you may be able to do better and make it 90%, but it&#8217;s going to be a hard sell.</p>
+
+<p>When I expand my itch scratching to family and friends, I find problems that are screaming for good teams of people to provide any help at all. If you look at any small (or even large) business, you&#8217;ll find tons of processes that are annoyingly manual, time consuming, and generally wasteful.</p>
+
+<p>When we started <a href='http://MomnPo.ps'>Mom n Pops</a>, we were scratching our own itch. We found it hard to find things in our neighborhood. What we found was that not only was the consumer side lacking, but that there were no tools on the store side either. Store owners keeping track of things on post-it notes, distributors going store to store taking inventory by hand on paper, and what tools exist are expensive and bad. Theres definitely work to be done here.</p>
+
+<p>My new rule of thumb when I hear ideas is &#8220;Who&#8217;s life is significantly better because of this?&#8221; and, if I&#8217;m uninspired with ideas for what I should do, I talk to other people about their jobs. They always know something that can be fixed.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
     
   </div>
-</nav>
-
 </div>
-<aside role=sidebar>
+<aside class="sidebar">
   
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
+      <li class="post">
+        <a href="/blog/2011/10/25/making-a-useful-business/">Making a useful business</a>
+      </li>
+    
   </ul>
 </section>
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/BertHartm">@BertHartm</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'BertHartm',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
 
 
 
@@ -119,11 +172,54 @@
 
     </div>
   </div>
-  <footer><p>
+  <footer role="contentinfo"><p>
   Copyright &copy; 2011 - Bert Hartmann -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
 </footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'berthartm';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
 </body>
 </html>
