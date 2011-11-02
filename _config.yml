@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://berthartm.github.com
-title: Programming Notes
+title: "Bert's Blog"
 subtitle: 
 author: Bert Hartmann
 simple_search: 
@@ -43,7 +43,7 @@ titlecase: true       # Converts page and post titles to tilecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html, asides/twitter.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -62,8 +62,8 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: 
-twitter_tweet_count: 4
+twitter_user: BertHartm
+twitter_tweet_count: 3
 twitter_show_replies: false
 twitter_follow_button: true
 twitter_show_follower_count: false
@@ -75,8 +75,8 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
-googleplus_hidden: false
+googleplus_user: '117826068757629446294'
+googleplus_hidden: true
 
 # Pinboard
 pinboard_user:
@@ -87,11 +87,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: berthartm
+disqus_short_name: 'berthartm'
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id: UA-25195310-1
+google_analytics_tracking_id: 'UA-25195310-1'
    
 # Facebook Like
 facebook_like: false
