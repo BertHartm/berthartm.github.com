@@ -4,7 +4,7 @@
   <title><![CDATA[Bert's Blog]]></title>
   <link href="http://berthartm.github.com/atom.xml" rel="self"/>
   <link href="http://berthartm.github.com/"/>
-  <updated>2011-11-01T21:28:08-04:00</updated>
+  <updated>2011-11-01T23:26:20-04:00</updated>
   <id>http://berthartm.github.com/</id>
   <author>
     <name><![CDATA[Bert Hartmann]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[In defense of the back button]]></title>
+    <link href="http://berthartm.github.com/blog/2011/11/01/in-defense-of-the-back-button/"/>
+    <updated>2011-11-01T20:56:00-04:00</updated>
+    <id>http://berthartm.github.com/blog/2011/11/01/in-defense-of-the-back-button</id>
+    <content type="html"><![CDATA[<p><a href="http://durietz.tumblr.com/post/12131947412/the-android-hardware-buttons-are-broken">Christoffer Du Rietz</a> recently took a jab at the Android hardware buttons. A lot has been said on the topic, and I won&#8217;t try to contribute more on the subject of Android vs. iOS or whether or not hardware buttons are a good idea. Let&#8217;s just leave it at that I&#8217;m a nexus one user who likes his phone and that I&#8217;m excited at what I&#8217;ve seen of Ice Cream Sandwich so far.</p>
+
+<p>What I do want to address is a comment he made regarding the back button that &#8220;The problem is, that Android hasn’t decided what that it wants the back button to do.&#8221; . That statement seems ridiculous to me. I&#8217;ll try to explain my reasoning, but first we need to go down a little tangent.</p>
+
+<p>Information Architecture is hard. This is not news to anyone who&#8217;s been responsible for laying out the content and navigation of a sizable website, or dealt with making sane and simple user workflows, or even struggled with finding the best outline for a paper they were writing.</p>
+
+<p>Life used to be simpler. You struggled with your mass of information for a while, picked your favorite organizational structure and went with it, for better or worse. This is how we got the Dewey Decimal system, the standard layout for clothing stores (divided men&#8217;s / women&#8217;s / children, again in each of those sections by style of clothing, and so on). Of course, everything can only be in one place though, so your book that&#8217;s a mix of Computer Science and Literature? Someone&#8217;s going to have make a choice as to which section of the library it will be in.</p>
+
+<p>Computers solved that problem, right?. Now ebooks can exist in both classifications, since they&#8217;re digital. Being able to link around the web means we don&#8217;t have to follow anyone else&#8217;s established hierarchy. I mean, books still have to be on a certain shelf and a shirt on a particular rack, but we can search and shop unlike and find what we&#8217;re looking for.</p>
+
+<p>Unfortunately, this is only partly true. We still have two forms of going through content as humans, searching and browsing. Linking and searching work for the searching behavior, but for browsing we still need to have a hierarchy and feel like we know where we are (even when &#8220;where we are&#8221; exists only as bits on the screen). You&#8217;ll notice all the clothing store websites haven&#8217;t abandoned their hierarchies. People still like to be able to go &#8220;up&#8221; from what they&#8217;re looking at to all Men&#8217;s clothing, or &#8220;down&#8221; to a particular shirt, or &#8220;over&#8221; to look at pants instead. What has changed though, is that we now have somethings that can function without hierarchy at all.</p>
+
+<p>Twitter has no strict information hierarchy. It&#8217;s not unique in this, but it&#8217;s who I&#8217;m going to pick on right now. If we were to assign Twitter a hierarchy, it would probably be a very flat and wide one where the user would pick one of a million users, and they would have their tweets and their profile. Not great usability. Twitter works because they can break this model, throw it out the window, and have navigation based on aggregation of a hundred different things. This means there is no &#8220;up&#8221; or &#8220;down&#8221; in Twitter. There&#8217;s only &#8220;back&#8221; (and then sometimes &#8220;forward&#8221;), which are new directions based on the <em>user&#8217;s flow</em> instead of the information architecture.</p>
+
+<p>This is what your browser does to allow you some affordance of navigation through the web. Each site (usually) has their hierarchy, but once you break that, it&#8217;s back to the browser back button.</p>
+
+<p><strong>So now let&#8217;s get back to the point.</strong></p>
+
+<p>Android, tasked with building an OS for a smartphone, has to figure out navigation among many other issues. Apps are much worse than websites when it comes to navigation. Between the myriad of chat programs, things like dropbox, tuners, and other utilities, and other programs on my phone, I&#8217;d be hard pressed to figure out a sane hierarchical navigation for half of them. To add to this, Android has a wonderful way to call into different parts of applications using intents, which act as the equivalent of linking to different webpages online.</p>
+
+<p>Is it any surprise then that they included an isomorphism of the browser back button? In a model where there is no &#8220;up&#8221; or &#8220;down&#8221;, what other direction is there but &#8220;back&#8221;?</p>
+
+<p>If understood this way, the back button is entirely consistent. There are cases where hierarchical navigation still makes sense, but I think you&#8217;ll find that most of them are similar to something like a mail program. Click one email to view, and then people tend to choose &#8220;back&#8221; over &#8220;up&#8221;. How often do you hit the inbox link in gmail?</p>
+
+<p>At this point I feel compelled to call out Facebook on their recent app design, which is the only one I know that willfully breaks this model. Android allows you to override the back button behavior, but recommends against it for consistency reasons (and, hey, why write the code when the os gives it for free?). Facebook launches a user into the newsfeed when they open the app, and hitting the back button takes them to some sort of menu. Back again behaves as expected. I&#8217;m not sure what the thought process was here towards breaking the expecation. Unfortunately, there&#8217;s discussions as to how to treat the back button in ajax applications as there&#8217;s no browser reload between actions for them, so I imagine as that we&#8217;ll see more abuses of this type as the tools evolve to change browser behavior.</p>
+
+<p>Thanks to <a href="http://twitter.com/okayrene">@okayrene</a> for helping me refine this.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Making a useful business]]></title>
