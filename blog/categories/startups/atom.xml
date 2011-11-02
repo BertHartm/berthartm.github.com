@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: startups | Programming Notes]]></title>
+  <title><![CDATA[Category: startups | Bert's Blog]]></title>
   <link href="http://berthartm.github.com/blog/categories/startups/atom.xml" rel="self"/>
   <link href="http://berthartm.github.com/"/>
-  <updated>2011-10-25T22:13:27-04:00</updated>
+  <updated>2011-11-01T21:28:08-04:00</updated>
   <id>http://berthartm.github.com/</id>
   <author>
     <name><![CDATA[Bert Hartmann]]></name>
