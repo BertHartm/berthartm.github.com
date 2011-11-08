@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: startups | Bert's Blog]]></title>
-  <link href="http://berthartm.github.com/blog/categories/startups/atom.xml" rel="self"/>
-  <link href="http://berthartm.github.com/"/>
-  <updated>2011-11-01T23:48:00-04:00</updated>
-  <id>http://berthartm.github.com/</id>
+  <link href="http://berthartm.com/blog/categories/startups/atom.xml" rel="self"/>
+  <link href="http://berthartm.com/"/>
+  <updated>2011-11-08T03:06:04-05:00</updated>
+  <id>http://berthartm.com/</id>
   <author>
     <name><![CDATA[Bert Hartmann]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Making a useful business]]></title>
-    <link href="http://berthartm.github.com/blog/2011/10/25/making-a-useful-business/"/>
+    <link href="http://berthartm.com/blog/2011/10/25/making-a-useful-business/"/>
     <updated>2011-10-25T21:34:00-04:00</updated>
-    <id>http://berthartm.github.com/blog/2011/10/25/making-a-useful-business</id>
+    <id>http://berthartm.com/blog/2011/10/25/making-a-useful-business</id>
     <content type="html"><![CDATA[<p>I saw a post on Hacker News recently about a recent batch of graduates from TechStars. There was a comment there lamenting the lack of businesses attacking new problems. Unfortunately, I can't find the post or comment now, unfortunately, but it's a thought I've heard and shared before, and it's not unique to any program or group of people.</p>
 
 <p>A lot is said in the startup world about "scratching your own itch". That is, find a problem that affects you so you'll be inspired to solve it. A lot of great ideas and businesses have come out of this, but it's almost come to a point where people don't know what to solve because a lot of the problems in the life of a typical startup founder have been solved.</p>
