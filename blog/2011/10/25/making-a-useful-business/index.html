@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://berthartm.github.com/blog/2011/10/25/making-a-useful-business">
+  <link rel="canonical" href="http://berthartm.com/blog/2011/10/25/making-a-useful-business">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -58,13 +58,14 @@
 </ul>
 <form action="" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:berthartm.github.com" />
+    <input type="hidden" name="q" value="site:berthartm.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
 <ul role=main-navigation>
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/About">About</a></li>
 </ul>
 
 </nav>
@@ -135,7 +136,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://berthartm.github.com/blog/2011/10/25/making-a-useful-business/" data-via="BertHartm" data-counturl="http://berthartm.github.com/blog/2011/10/25/making-a-useful-business/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://berthartm.com/blog/2011/10/25/making-a-useful-business/" data-via="BertHartm" data-counturl="http://berthartm.com/blog/2011/10/25/making-a-useful-business/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -168,6 +169,18 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2011/12/02/the-web-presence-scale/">The Web Presence Scale</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/11/22/lessons-from-the-post-office/">Lessons From the Postal Service</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/11/15/whats-the-point-of-html/">What's the point of HTML?</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2011/11/01/in-defense-of-the-back-button/">In defense of the back button</a>
       </li>
     
@@ -177,6 +190,23 @@
     
   </ul>
 </section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("BertHartm", 3, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/BertHartm" class="twitter-follow-button" data-width="208px" data-show-count="false">Follow @BertHartm</a>
+  
+</section>
+
 
 <section>
   <h1>Github Repos</h1>
@@ -205,23 +235,6 @@
     });
   </script>
   <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("BertHartm", 3, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/BertHartm" class="twitter-follow-button" data-width="208px" data-show-count="false">Follow @BertHartm</a>
-  
 </section>
 
 
@@ -256,8 +269,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://berthartm.github.com/blog/2011/10/25/making-a-useful-business';
-        var disqus_url = 'http://berthartm.github.com/blog/2011/10/25/making-a-useful-business';
+        var disqus_identifier = 'http://berthartm.com/blog/2011/10/25/making-a-useful-business';
+        var disqus_url = 'http://berthartm.com/blog/2011/10/25/making-a-useful-business';
         var disqus_script = 'embed.js';
       
     (function () {
