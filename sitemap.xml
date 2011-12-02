@@ -2,22 +2,34 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://berthartm.com/blog/2011/10/25/making-a-useful-business/</loc>
-        <lastmod>2011-11-08T03:06:04-05:00</lastmod>
+        <lastmod>2011-12-02T01:15:13-05:00</lastmod>
     </url>
     <url>
         <loc>http://berthartm.com/blog/2011/11/01/in-defense-of-the-back-button/</loc>
-        <lastmod>2011-11-08T03:06:04-05:00</lastmod>
+        <lastmod>2011-12-02T01:15:13-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://berthartm.com/blog/2011/11/15/whats-the-point-of-html/</loc>
+        <lastmod>2011-12-02T01:15:13-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://berthartm.com/blog/2011/11/22/lessons-from-the-post-office/</loc>
+        <lastmod>2011-12-02T01:15:13-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://berthartm.com/blog/2011/12/02/the-web-presence-scale/</loc>
+        <lastmod>2011-12-02T03:21:08-05:00</lastmod>
     </url>
     <url>
         <loc>http://berthartm.com/About/</loc>
-        <lastmod>2011-11-08T03:06:04-05:00</lastmod>
+        <lastmod>2011-12-02T02:59:56-05:00</lastmod>
     </url>
     <url>
         <loc>http://berthartm.com/blog/archives/</loc>
-        <lastmod>2011-11-08T03:06:04-05:00</lastmod>
+        <lastmod>2011-12-02T03:21:08-05:00</lastmod>
     </url>
     <url>
         <loc>http://berthartm.com/</loc>
-        <lastmod>2011-11-08T03:06:04-05:00</lastmod>
+        <lastmod>2011-12-02T03:21:08-05:00</lastmod>
     </url>
 </urlset>
